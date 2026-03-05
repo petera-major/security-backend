@@ -1,0 +1,27 @@
+{
+    "eventVersion": "1.08",
+    "userIdentity": {
+      "type": "IAMUser",
+      "principalId": "AIDAEXAMPLE",
+      "arn": "arn:aws:iam::123456789012:user/devops-user",
+      "accountId": "123456789012",
+      "userName": "devops-user"
+    },
+    "eventTime": "2026-03-04T15:05:44Z",
+    "eventSource": "iam.amazonaws.com",
+    "eventName": "CreateAccessKey",
+    "awsRegion": "us-west-2",
+    "sourceIPAddress": "203.0.113.77",
+    "userAgent": "aws-cli/2.15.0",
+    "requestParameters": {
+      "userName": "devops-user"
+    },
+    "responseElements": {
+      "accessKey": {
+        "accessKeyId": "AKIAEXAMPLEKEYID"
+      }
+    },
+    "additionalEventData": {
+      "MFAUsed": "No"
+    }
+  }
